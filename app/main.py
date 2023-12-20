@@ -1,5 +1,5 @@
 import os
-from lib import add_task, delete_task, edit_task, task_status, view_task, save_task
+from functions import add_task, delete_task, edit_task, task_status, view_task, save_task
 
 
 def load_tasks_from_file(file_path):
