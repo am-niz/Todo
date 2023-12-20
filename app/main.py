@@ -1,6 +1,10 @@
 import os
-from functions import add_task, delete_task, edit_task, task_status, view_task, save_task
-
+from ..functions import add_task
+from ..functions import delete_task
+from ..functions import edit_task
+from ..functions import task_status
+from ..functions import view_task
+from ..functions import save_task
 
 def load_tasks_from_file(file_path):
     tasks = []
